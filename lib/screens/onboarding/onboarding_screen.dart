@@ -115,8 +115,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 child: Stack(
                   children: [
                     Positioned(
-                      bottom: -50,
-                      right: -50,
+                      bottom: -120,
+                      right: -90,
                       child: Transform.rotate(
                         angle: math.pi / 4,
                         child: Container(
